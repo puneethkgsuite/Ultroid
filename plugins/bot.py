@@ -77,7 +77,7 @@ buttons = [
 
 # Will move to strings
 alive_txt = """
-The Ultroid Userbot
+Puneeth's Assistant Bot
 
   ◍ Version - {}
   ◍ Py-Ultroid - {}
@@ -116,7 +116,7 @@ async def lol(ult):
     y = Repo().active_branch
     xx = Repo().remotes[0].config_reader.get("url")
     rep = xx.replace(".git", f"/tree/{y}")
-    kk = f" `[{y}]({rep})` "
+    kk = f"secret"
     if inline:
         kk = f"<a href={rep}>{y}</a>"
         parse = "html"
